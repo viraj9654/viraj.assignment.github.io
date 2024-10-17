@@ -1,0 +1,58 @@
+.main-container{
+  display: flex;
+  width: 85%;
+  height: 30rem;
+  margin: auto;
+  background-color: #f3f4f6;
+  margin-top: 2rem;
+ 
+  
+}
+
+.left-div {
+  background-color: #090a58; 
+  width: 90%;
+  clip-path: polygon(0 0, 100% 0, 0 108%);
+ 
+}
+
+.content{
+ position: absolute;
+ max-width: 80%;
+}
+.icon-container{
+  margin-top: -24px;
+}
+
+.icon{
+  position: relative;
+  margin-top: -10px;
+  border: 4px solid #090a58;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+
+.icon:hover .icon-image {
+  animation: rotate 1s linear;
+}
+.image{
+  width: 5rem;
+  height: 5rem;
+}
+
+
+
+
+
+        
+       
